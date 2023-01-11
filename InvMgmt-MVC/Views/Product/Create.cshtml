@@ -1,0 +1,20 @@
+﻿@model InvMgmt_MVC.Models.Product
+
+
+<p class="bg-primary w-25">Add New Product</p>
+<br/>
+
+<form asp-action="Create" method="post">
+
+    <input asp-for=ProductName class="form-control m-2 w-25" placeholder="Enter Product Name"/>
+
+        <input asp-for=Category class="form-control m-2 w-25" placeholder="Enter Category"/>
+
+     <input asp-for=AvailableQty class="form-control m-2 w-25" placeholder="Enter AvailableQty"/>
+
+     <input asp-for=UnitPrice class="form-control m-2 w-25" placeholder="Enter Unit Price"/>
+
+     <input type="submit" class="btn btn-secondary"/>
+
+
+</form>

@@ -1,0 +1,18 @@
+﻿@model InvMgmt_MVC.Models.Product
+
+<div class="card w-25">
+     <div class=card-header>
+            @Model.ProductName
+        </div>
+        <div class="card-body">
+            <h5>@Model.Category</h5>
+            <h5>@Model.AvailableQty</h5>
+            <h5>@Model.UnitPrice</h5>
+            </div>
+            <div class="card-footer">
+
+<a asp-action="Index" class="btn btn-primary">Back to List</a>
+
+                </div>
+
+</div>
